@@ -51,6 +51,40 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Script MQTT\Exceptions\MqttClientException.cs" />
+     <Compile Include="Assets\Script MQTT\Exceptions\MqttCommunicationException.cs" />
+     <Compile Include="Assets\Script MQTT\Exceptions\MqttConnectionException.cs" />
+     <Compile Include="Assets\Script MQTT\Exceptions\MqttTimeoutException.cs" />
+     <Compile Include="Assets\Script MQTT\IMqttNetworkChannel.cs" />
+     <Compile Include="Assets\Script MQTT\Messages\MqttMsgBase.cs" />
+     <Compile Include="Assets\Script MQTT\Messages\MqttMsgConnack.cs" />
+     <Compile Include="Assets\Script MQTT\Messages\MqttMsgConnect.cs" />
+     <Compile Include="Assets\Script MQTT\Messages\MqttMsgConnectEventArgs.cs" />
+     <Compile Include="Assets\Script MQTT\Messages\MqttMsgContext.cs" />
+     <Compile Include="Assets\Script MQTT\Messages\MqttMsgDisconnect.cs" />
+     <Compile Include="Assets\Script MQTT\Messages\MqttMsgPingReq.cs" />
+     <Compile Include="Assets\Script MQTT\Messages\MqttMsgPingResp.cs" />
+     <Compile Include="Assets\Script MQTT\Messages\MqttMsgPuback.cs" />
+     <Compile Include="Assets\Script MQTT\Messages\MqttMsgPubcomp.cs" />
+     <Compile Include="Assets\Script MQTT\Messages\MqttMsgPublish.cs" />
+     <Compile Include="Assets\Script MQTT\Messages\MqttMsgPublishedEventArgs.cs" />
+     <Compile Include="Assets\Script MQTT\Messages\MqttMsgPublishEventArgs.cs" />
+     <Compile Include="Assets\Script MQTT\Messages\MqttMsgPubrec.cs" />
+     <Compile Include="Assets\Script MQTT\Messages\MqttMsgPubrel.cs" />
+     <Compile Include="Assets\Script MQTT\Messages\MqttMsgSuback.cs" />
+     <Compile Include="Assets\Script MQTT\Messages\MqttMsgSubscribe.cs" />
+     <Compile Include="Assets\Script MQTT\Messages\MqttMsgSubscribedEventArgs.cs" />
+     <Compile Include="Assets\Script MQTT\Messages\MqttMsgSubscribeEventArgs.cs" />
+     <Compile Include="Assets\Script MQTT\Messages\MqttMsgUnsuback.cs" />
+     <Compile Include="Assets\Script MQTT\Messages\MqttMsgUnsubscribe.cs" />
+     <Compile Include="Assets\Script MQTT\Messages\MqttMsgUnsubscribedEventArgs.cs" />
+     <Compile Include="Assets\Script MQTT\Messages\MqttMsgUnsubscribeEventArgs.cs" />
+     <Compile Include="Assets\Script MQTT\MqttClient.cs" />
+     <Compile Include="Assets\Script MQTT\MqttNetworkChannel.cs" />
+     <Compile Include="Assets\Script MQTT\MqttSettings.cs" />
+     <Compile Include="Assets\Script MQTT\test\mqttTest.cs" />
+     <Compile Include="Assets\Script MQTT\Utility\QueueExtension.cs" />
+     <Compile Include="Assets\Script MQTT\Utility\Trace.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Rotator.cs" />
