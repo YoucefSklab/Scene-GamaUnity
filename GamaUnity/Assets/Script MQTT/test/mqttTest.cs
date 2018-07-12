@@ -26,6 +26,9 @@ public class mqttTest : MonoBehaviour {
 		client.Subscribe(new string[] { "hello/world" }, new byte[] { MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE }); 
 
 	}
+
+
+
 	void client_MqttMsgPublishReceived(object sender, MqttMsgPublishEventArgs e) 
 	{ 
 		string receivedMessage = System.Text.Encoding.UTF8.GetString (e.Message);
